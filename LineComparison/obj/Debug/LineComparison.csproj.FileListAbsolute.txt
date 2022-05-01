@@ -1,0 +1,8 @@
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\bin\Debug\LineComparison.exe.config
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\bin\Debug\LineComparison.exe
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\bin\Debug\LineComparison.pdb
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\obj\Debug\LineComparison.csproj.AssemblyReference.cache
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\obj\Debug\LineComparison.csproj.SuggestedBindingRedirects.cache
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\obj\Debug\LineComparison.csproj.CoreCompileInputs.cache
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\obj\Debug\LineComparison.exe
+F:\C SHARP PROJECTS\bridgelab\LineComparison\LineComparison\obj\Debug\LineComparison.pdb
