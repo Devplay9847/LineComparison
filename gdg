@@ -1,0 +1,54 @@
+[1mdiff --git a/.vs/LineComparison/v17/.suo b/.vs/LineComparison/v17/.suo[m
+[1mindex cfcb728..e54441e 100644[m
+Binary files a/.vs/LineComparison/v17/.suo and b/.vs/LineComparison/v17/.suo differ
+[1mdiff --git a/LineComparison/Program.cs b/LineComparison/Program.cs[m
+[1mindex 86a98aa..a0e525b 100644[m
+[1m--- a/LineComparison/Program.cs[m
+[1m+++ b/LineComparison/Program.cs[m
+[36m@@ -4,14 +4,26 @@[m [musing System.Linq;[m
+ using System.Text;[m
+ using System.Threading.Tasks;[m
+ [m
+[32m+[m
+ namespace LineComparison[m
+ {[m
+[31m-    internal class Program[m
+[31m-    {[m
+[31m-        static void Main(string[] args)[m
+[31m-        {[m
+[31m-            Console.WriteLine("Start with Displaying Welcome to Line Comparison ComputationProgram on Master Branch");[m
+[31m-            Console.ReadLine();[m
+[31m-        }[m
+[31m-    }[m
+[32m+[m	[32minternal class Program[m
+[32m+[m	[32m{[m
+[32m+[m		[32mstatic void Main(string[] args)[m
+[32m+[m		[32m{[m
+[32m+[m			[32mdouble x1, y1, x2, y2;[m
+[32m+[m			[32mConsole.WriteLine("Input line one x1: ");[m
+[32m+[m			[32mx1 = Convert.ToDouble(Console.ReadLine());[m
+[32m+[m			[32mConsole.WriteLine("Input line one y1: ");[m
+[32m+[m			[32my1 = Convert.ToDouble(Console.ReadLine());[m
+[32m+[m			[32mConsole.WriteLine("Input line one x2: ");[m
+[32m+[m			[32mx2 = Convert.ToDouble(Console.ReadLine());[m
+[32m+[m			[32mConsole.WriteLine("Input line one x2: ");[m
+[32m+[m			[32my2 = Convert.ToDouble(Console.ReadLine());[m
+[32m+[m			[32mdouble LengthofLine = 0;[m
+[32m+[m			[32mLengthofLine = Math.Sqrt((x2 - x1) * 2 + (y2 - y1) * 2);[m
+[32m+[m			[32mConsole.WriteLine("Lenght of line =" + LengthofLine);[m
+[32m+[m			[32mConsole.ReadLine();[m
+[32m+[m		[32m}[m
+[32m+[m	[32m}[m
+ }[m
+[1mdiff --git a/LineComparison/bin/Debug/LineComparison.exe b/LineComparison/bin/Debug/LineComparison.exe[m
+[1mindex c9163c9..655ab98 100644[m
+Binary files a/LineComparison/bin/Debug/LineComparison.exe and b/LineComparison/bin/Debug/LineComparison.exe differ
+[1mdiff --git a/LineComparison/bin/Debug/LineComparison.pdb b/LineComparison/bin/Debug/LineComparison.pdb[m
+[1mindex 73706ef..f11d51e 100644[m
+Binary files a/LineComparison/bin/Debug/LineComparison.pdb and b/LineComparison/bin/Debug/LineComparison.pdb differ
+[1mdiff --git a/LineComparison/obj/Debug/LineComparison.exe b/LineComparison/obj/Debug/LineComparison.exe[m
+[1mindex c9163c9..655ab98 100644[m
+Binary files a/LineComparison/obj/Debug/LineComparison.exe and b/LineComparison/obj/Debug/LineComparison.exe differ
+[1mdiff --git a/LineComparison/obj/Debug/LineComparison.pdb b/LineComparison/obj/Debug/LineComparison.pdb[m
+[1mindex 73706ef..f11d51e 100644[m
+Binary files a/LineComparison/obj/Debug/LineComparison.pdb and b/LineComparison/obj/Debug/LineComparison.pdb differ
